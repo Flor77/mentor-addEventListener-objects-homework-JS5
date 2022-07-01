@@ -1,9 +1,9 @@
 CREATE A DIFFERENT BRANCH FOR THE DIFFERENT HOMEWORK SECTIONS
 
-#SECTION 1. 
+SECTION 1. 
 For this section you are going to use `movieObject` from index.js
 
-    **1) Change the budget of the movie to be `0` to verify 
+    **1) Change the budget of the movie to be 0 to verify 
     console.log(movieObject.budget) //before it was 11000000
 
     2) Add new property `mustSee` with value true again to test it use console.log()
@@ -16,7 +16,7 @@ For this section you are going to use `movieObject` from index.js
 
     5) Create a input in html that will represent a name, and a button. The input value 
     will be added into the existing object as a property called `movieDirector` when the Submit button will be clicked.
-    ![alt text](/example.png)
+    ![alt text](example.png)
 
 
 #SECTION 2. 
