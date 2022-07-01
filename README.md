@@ -16,7 +16,8 @@ For this section you are going to use `movieObject` from index.js
 
     5) Create a input in html that will represent a name, and a button. The input value 
     will be added into the existing object as a property called `movieDirector` when the Submit button will be clicked.
-    ![alt text](example.png)
+    
+   ![alt text](example.png)
 
 
 #SECTION 2. 
@@ -27,11 +28,12 @@ Some kind of Twitter application.
      First step: create the design nothing complicated.
      Second step: get the input elements in JS and get the values.
      Third step: when you click on the submit button add them to the right div.
-     ![alt text](./design/1.png)
-     ![alt text](./design/2.png)
-     ![alt text](./design/3.png)
-     ![alt text](./design/4.png)
-     ![alt text](./design/5.png)
+     
+   ![alt text](./design/1.png)
+   ![alt text](./design/2.png)
+   ![alt text](./design/3.png)
+   ![alt text](./design/4.png)
+   ![alt text](./design/5.png)
 
 Bonus*** If you click on any of the right side messages (tweets) will be deleted like I did on the live session.
 
