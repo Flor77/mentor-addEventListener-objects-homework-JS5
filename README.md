@@ -1,8 +1,9 @@
 CREATE A DIFFERENT BRANCH FOR THE DIFFERENT HOMEWORK SECTIONS
 
-SECTION 1. For this section you are going to use `movieObject` from index.js
+#SECTION 1. 
+For this section you are going to use `movieObject` from index.js
 
-    1) Change the budget of the movie to be `0` to verify 
+    **1) Change the budget of the movie to be `0` to verify 
     console.log(movieObject.budget) //before it was 11000000
 
     2) Add new property `mustSee` with value true again to test it use console.log()
@@ -18,7 +19,8 @@ SECTION 1. For this section you are going to use `movieObject` from index.js
     ![alt text](/example.png)
 
 
-SECTION 2. Create a blog form with 4 inputs. First Name, Last Name, Gender, Message. 
+#SECTION 2. 
+Create a blog form with 4 inputs. First Name, Last Name, Gender, Message. 
 On the right side the message will be displayed with the name and the message as you will see in the design. 
 Some kind of Twitter application. 
      
