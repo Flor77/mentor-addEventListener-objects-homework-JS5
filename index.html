@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SECTION-2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <input id="name-input" placeholder="name" type="text">
-    <button>Submit</button>
+    <div class="wrap-container">
+        <form class="container">
+            <div class="input-details">
+                <span class="details">First Name</span>
+                <input id="firstname-input" placeholder="First Name" type="text" />
+            </div>
+            <div class="input-details">
+                <span class="details">Last Name</span>
+                <input id="lastname-input" placeholder="Last Name" type="text" />
+            </div>
+            <div id="gender-details">
+                <span class="details">Gender</span><br />
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">M</label><br />
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">F</label><br />
+            </div>
+            <input id="message-input" placeholder="Your message here..." type="text" />
+            <button id="button">Submit</button>
+        </form>
+        <div id="message-output" class="container">
+            <div class="text-display">
+                <p id="new-paragraph" ></p>
+                <p id="ref"></p>
+            </div>
+            
+        </div>
+    </div>
+    
+
     <script src="index.js"></script>
 </body>
+
 </html>
