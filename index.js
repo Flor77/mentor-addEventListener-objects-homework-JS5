@@ -67,14 +67,38 @@ const movieObject = {
     vote_average: 8.2,
     vote_count: 17382
   }
-  let submit = document.querySelector('button');
-  let input = document.querySelector('input');
+  
 
+
+// submit.addEventListener('click', () => {
+//     console.log(input.value)
+//     movieObject.movieDirector = input.value;
+//     // console.log(movieObject);
+// })
+
+// //1) Change the budget of the movie to be 0 to verify 
+// console.log(movieObject.budget) //before it was 11000000
+movieObject.budget = 0;
+
+// 2) Add new property `mustSee` with value true again to test it use console.log()
+movieObject.mustSee = 'true'
+
+/*3) Add a new method to that object `getGenres` that will return array with 
+only the names of the genres should display ['Adventure', 'Action', 'Science Fiction']
+****TIP use this keyword remember the right way you can use `this` in a method*/
+movieObject.getGenres = function() {
+return (this.genres).map((item) => item.name)
+}
+
+// 4) Create a new variable that holds the production_companies
+let productionCompanies = movieObject.production_companies;
+
+/*5) Create a input in html that will represent a name, and a button. The input value 
+will be added into the existing object as a property called `movieDirector` when the Submit button will be clicked.*/
+let nameDirector = movieObject.movieDirector
+let submit = document.querySelector('button');
+let input = document.querySelector('input');
 
 submit.addEventListener('click', () => {
-    console.log(input.value)
-    movieObject.movieDirector = input.value;
-    console.log(movieObject);
+  movieObject.movieDirector = input.value;
 })
-
-console.log(movieObject)
